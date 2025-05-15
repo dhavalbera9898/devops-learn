@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo</title>
+    </head>
+    <body>
+        <h1>Submit TODO</h1>
+        {% if error %}
+        <p style="color: red">Error: {{ error }}</p>
+        {% endif %}
+        <form method="POST">
+            Item Name: <input type="text" name="item" required /><br /><br />
+            Item Description: <textarea name="description" required></textarea><br /><br />
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
