@@ -1,5 +1,7 @@
 [
     {"id": 1, "item": "Apple"},
     {"id": 2, "item": "Banana"},
-    {"id": 3, "item": "Orange"}
+    {"id": 3, "item": "Orange"},
+    {"id": 4, "item": "Mango"},
+    {"id": 5, "item": "Banana"}
 ]
